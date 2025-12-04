@@ -4,7 +4,6 @@
 databases:
   - name: react-fullstack-db
     databaseName: tasks
-    user: postgres
     plan: free
 
 services:
