@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "target": "ES2022",
+        "module": "esnext",
+        "moduleResolution": "node",
+        "allowImportingTsExtensions": false,
+        "verbatimModuleSyntax": false,
+        "skipLibCheck": true,
+        "strict": true,
+        "noEmit": false,
+        "outDir": "dist-server",
+        "esModuleInterop": true
+    },
+    "include": [
+        "src/server",
+        "src/shared"
+    ]
+}
